@@ -66,19 +66,19 @@ const useMetaTags = (metadata: {
 // PORTFOLIO DATA CONFIGURATION
 // ============================================================================
 const defaultPortfolioData = {
-  name: "LADY DIANE BAUZON CASILANG",
+  name: "MYCHAIEL B. AURELLANO",
   course: "BS in Information Technology",
-  school: "FEU Institute of Technology",
-  about: "I am a fourth-year IT student and freelance designer who integrates technical troubleshooting with creative insight to deliver innovative, efficient solutions.",
+  school: "Polytechnic Institute of Tabaco",
+  about: "A 2nd yearIT student exploring different areas of technology, currently learning about blockchain and smart contract development through hands-on projects like this one.",
   skills: [
     "Graphic Design",
-    "UI / UX Design",
+    "Community Development",
     "Project Management",
-    "Full Stack Development",
+    "Software Development",
     "Web & App Development"
   ],
-  linkedin: "https://www.linkedin.com/in/ldcasilang/",
-  github: "https://github.com/ldcasilang",
+  linkedin: "https://www.linkedin.com/in/mychaiel-aurellano-75ab24410?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  github: "https://github.com/Mych-Tech",
 }
 
 // Network configuration
@@ -274,7 +274,7 @@ const PortfolioView = () => {
 
           {/* Personal Information */}
           <div className="hero-content">
-            <small>Hello! My name is</small>
+            <small>Hello! My name is </small>
             <h1 className="gradient-name">{portfolioData.name}</h1>
             <p><span className="degree">{portfolioData.course}, {portfolioData.school}</span></p>
 
